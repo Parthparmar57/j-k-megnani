@@ -1,0 +1,8 @@
+
+{
+  "name": "J.K. Megnani & Co. - Professional Tax & Investment Advisory",
+  "description": "A premium corporate website for J.K. Megnani & Co., established in 1959, specializing in Income Tax, GST, Auditing, and Investment Advisory services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
