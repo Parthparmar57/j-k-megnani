@@ -24,14 +24,14 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10 pt-20">
         <div className="max-w-3xl">
           <div className="inline-block bg-corporate-gold/20 text-corporate-gold px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-6 border border-corporate-gold/30 backdrop-blur-sm">
-            Established in 1959
+            Established in 1980
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 leading-tight">
             Trusted Financial <br/>
-            Advisors <span className="text-corporate-gold">Since 1959</span>
+            Advisors <span className="text-corporate-gold">Since 1980</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed max-w-2xl font-light">
-            Providing expert taxation, auditing, and investment consultancy with a 65-year legacy of integrity in Kutch, Gujarat.
+            Providing expert taxation, auditing, and investment consultancy with a 40-year legacy of integrity in New York City.
           </p>
           <div className="flex flex-col sm:flex-row gap-5">
             <Link 

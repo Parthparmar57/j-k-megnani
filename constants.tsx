@@ -29,12 +29,12 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'gst',
-    title: 'GST Compliance',
-    description: 'Complete Goods and Services Tax management and advisory.',
+    title: 'Sales Tax Compliance',
+    description: 'Complete Sales and Use Tax management and advisory.',
     details: [
-      'GST Registration & Cancellation',
+      'Sales Tax Registration & Cancellation',
       'Monthly & Annual Returns Filing',
-      'GST Audit Support',
+      'Sales Tax Audit Support',
       'Compliance Advisory & Legal Opinion'
     ],
     icon: 'ShieldCheck'
@@ -92,23 +92,23 @@ export const SERVICES: Service[] = [
 export const TEAM: TeamMember[] = [
   {
     id: '1',
-    name: 'Mr. J.K. Megnani',
+    name: 'Mr. John Smith',
     role: 'Founder & Senior Tax Consultant',
-    bio: 'With over 65 years of experience, Mr. Megnani established the legacy of trust and ethics that the firm stands on today.',
+    bio: 'With over 40 years of experience, Mr. Smith established the legacy of trust and ethics that the firm stands on today.',
     image: 'https://picsum.photos/400/500?random=1',
     specialization: 'Taxation & Advisory'
   },
   {
     id: '2',
-    name: 'CA Rajesh Megnani',
+    name: 'CPA Michael Johnson',
     role: 'Managing Partner',
-    bio: 'Leading the firm into the modern era with expertise in complex GST laws and corporate auditing standards.',
+    bio: 'Leading the firm into the modern era with expertise in complex tax laws and corporate auditing standards.',
     image: 'https://picsum.photos/400/500?random=2',
-    specialization: 'GST & Corporate Audit'
+    specialization: 'Tax & Corporate Audit'
   },
   {
     id: '3',
-    name: 'Ms. Amita Kothari',
+    name: 'Ms. Sarah Davis',
     role: 'Accounts Manager',
     bio: 'Managing client compliance and day-to-day accounting operations with precision and dedication.',
     image: 'https://picsum.photos/400/500?random=3',
@@ -119,26 +119,26 @@ export const TEAM: TeamMember[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    name: 'Suresh Patel',
-    company: 'Patel Engineering',
-    quote: 'J.K. Megnani & Co. has been our trusted partner for three generations. Their integrity is unmatched in Bhuj.'
+    name: 'Robert Wilson',
+    company: 'Wilson Enterprises',
+    quote: 'Smith & Associates has been our trusted partner for over a decade. Their integrity is unmatched in New York.'
   },
   {
     id: '2',
-    name: 'Meera Shah',
-    company: 'Creative Designs',
-    quote: 'Starting my business was easy thanks to their expert guidance on registration and GST. Highly recommended!'
+    name: 'Emily Chen',
+    company: 'Creative Solutions Inc.',
+    quote: 'Starting my business was easy thanks to their expert guidance on tax registration and compliance. Highly recommended!'
   },
   {
     id: '3',
-    name: 'Arjun Singh',
+    name: 'David Rodriguez',
     company: 'Individual Investor',
     quote: 'Their tax planning strategies helped me save significantly while staying 100% compliant. Real experts.'
   },
   {
     id: '4',
-    name: 'Vikram Mehta',
-    company: 'Mehta Logistics',
+    name: 'Jennifer Thompson',
+    company: 'Thompson Logistics',
     quote: 'Professional, timely, and ethical. They handle our complex audits with remarkable efficiency.'
   }
 ];
@@ -146,18 +146,18 @@ export const TESTIMONIALS: Testimonial[] = [
 export const FAQS: FAQItem[] = [
   {
     question: 'When should I file my Income Tax Return?',
-    answer: 'The standard deadline for individuals is 31st July, while for audit cases, it is typically 30th September or 31st October depending on the financial year and regulations.'
+    answer: 'The standard deadline for individuals is April 15th, while for businesses, it depends on the entity type and fiscal year end.'
   },
   {
-    question: 'What documents are required for GST registration?',
-    answer: 'Key documents include PAN card of the business/owner, proof of business address (Electricity bill/Rent agreement), bank account details, and identity/address proof of promoters.'
+    question: 'What documents are required for business tax registration?',
+    answer: 'Key documents include EIN number, business license, proof of business address, bank account details, and identity verification for owners.'
   },
   {
-    question: 'How often do I need to file GST returns?',
-    answer: 'Most regular taxpayers file GSTR-1 and GSTR-3B monthly, though smaller businesses under the QRMP scheme can opt for quarterly filing with monthly tax payments.'
+    question: 'How often do I need to file business tax returns?',
+    answer: 'Most businesses file quarterly estimated taxes and annual returns. Corporations file Form 1120 annually, while partnerships file Form 1065.'
   },
   {
     question: 'Is a Tax Audit mandatory for my business?',
-    answer: 'A Tax Audit is mandatory if your business turnover exceeds ₹1 Crore (or ₹10 Crores if cash transactions are under 5%) or if professional receipts exceed ₹50 Lakhs.'
+    answer: 'A tax audit may be required if your business income exceeds certain thresholds or if the IRS selects your return for examination.'
   }
 ];

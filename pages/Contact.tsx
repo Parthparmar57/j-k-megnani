@@ -41,7 +41,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg text-corporate-deepGreen mb-1">Our Location</h4>
-                    <p className="text-gray-600">Opp. Hotel Prince, Station Road, Bhuj, Gujarat – 370001</p>
+                    <p className="text-gray-600">123 Wall Street, Suite 500, New York, NY 10005</p>
                   </div>
                 </div>
 
@@ -51,8 +51,8 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg text-corporate-deepGreen mb-1">Phone Number</h4>
-                    <p className="text-gray-600">+91 98252 XXXXX</p>
-                    <p className="text-gray-600">+91 2832 XXXXX</p>
+                    <p className="text-gray-600">(212) 555-0123</p>
+                    <p className="text-gray-600">(212) 555-0456</p>
                   </div>
                 </div>
 
@@ -62,8 +62,8 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg text-corporate-deepGreen mb-1">Email Address</h4>
-                    <p className="text-gray-600">info@jkmegnani.com</p>
-                    <p className="text-gray-600">tax@jkmegnani.com</p>
+                    <p className="text-gray-600">info@smithassociates.com</p>
+                    <p className="text-gray-600">tax@smithassociates.com</p>
                   </div>
                 </div>
 

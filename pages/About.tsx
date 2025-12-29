@@ -6,10 +6,10 @@ import { History, Award, Target, Users } from 'lucide-react';
 
 export const About = () => {
   const milestones = [
-    { year: '1959', title: 'Foundation', desc: 'J.K. Megnani started the practice in Bhuj with a vision to provide ethical tax advisory.' },
-    { year: '1985', title: 'Growth Era', desc: 'The firm expanded services to include Corporate Auditing and Investment Advisory.' },
-    { year: '2005', title: 'New Leadership', desc: 'Integration of modern digital standards and expanded GST/VAT consultancy.' },
-    { year: 'Present', title: 'Trusted Legacy', desc: 'Serving over 5000+ satisfied clients across multiple generations.' }
+    { year: '1980', title: 'Foundation', desc: 'John Smith started the practice in New York City with a vision to provide ethical tax advisory.' },
+    { year: '1995', title: 'Growth Era', desc: 'The firm expanded services to include Corporate Auditing and Investment Advisory.' },
+    { year: '2010', title: 'New Leadership', desc: 'Integration of modern digital standards and expanded tax consultancy.' },
+    { year: 'Present', title: 'Trusted Legacy', desc: 'Serving over 2000+ satisfied clients across multiple generations.' }
   ];
 
   return (
@@ -18,7 +18,7 @@ export const About = () => {
       <section className="pt-40 pb-20 bg-corporate-deepGreen text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-serif font-bold mb-4">Our Legacy</h1>
-          <p className="text-xl text-corporate-gold font-medium">Serving Bhuj with integrity since 1959</p>
+          <p className="text-xl text-corporate-gold font-medium">Serving New York City with integrity since 1980</p>
         </div>
       </section>
 
@@ -29,14 +29,14 @@ export const About = () => {
             <div>
               <SectionTitle 
                 centered={false}
-                title="65 Years of Dedication" 
-                subtitle="From a single desk to one of Bhuj's most respected firms."
+                title="40 Years of Dedication" 
+                subtitle="From a single desk to one of New York City's most respected firms."
               />
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Established by Mr. J.K. Megnani in 1959, our firm was born out of a commitment to provide clear, honest, and expert tax guidance to the local community in Kutch. Over the decades, we have witnessed the economic transformation of the region and have evolved our practices to meet global standards while maintaining our deep-rooted local values.
+                Established by Mr. John Smith in 1980, our firm was born out of a commitment to provide clear, honest, and expert tax guidance to the local community in New York City. Over the decades, we have witnessed the economic transformation of the city and have evolved our practices to meet global standards while maintaining our deep-rooted local values.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Today, J.K. Megnani & Co. stands as a symbol of reliability. We are not just service providers; we are long-term partners in our clients' growth, ensuring every individual and business we touch is compliant, tax-efficient, and financially secure.
+                Today, Smith & Associates stands as a symbol of reliability. We are not just service providers; we are long-term partners in our clients' growth, ensuring every individual and business we touch is compliant, tax-efficient, and financially secure.
               </p>
               <div className="grid grid-cols-2 gap-8">
                 <div className="flex items-center gap-3">

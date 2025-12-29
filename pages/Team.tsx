@@ -19,7 +19,7 @@ export const Team = () => {
         <div className="container mx-auto px-4">
           <SectionTitle 
             title="Leadership & Vision" 
-            subtitle="Meet the experienced consultants leading J.K. Megnani & Co."
+            subtitle="Meet the experienced consultants leading Smith & Associates."
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
             {TEAM.map((member) => (

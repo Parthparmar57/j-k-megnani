@@ -26,9 +26,9 @@ const Header = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="bg-corporate-deepGreen text-corporate-gold w-10 h-10 flex items-center justify-center font-serif text-xl font-bold rounded group-hover:bg-corporate-gold group-hover:text-corporate-deepGreen transition-colors">JK</div>
+          <div className="bg-corporate-deepGreen text-corporate-gold w-10 h-10 flex items-center justify-center font-serif text-xl font-bold rounded group-hover:bg-corporate-gold group-hover:text-corporate-deepGreen transition-colors">SA</div>
           <div className="flex flex-col">
-            <span className={`font-bold text-lg leading-tight ${isScrolled ? 'text-corporate-deepGreen' : 'text-corporate-deepGreen md:text-white'}`}>J.K. Megnani & Co.</span>
+            <span className={`font-bold text-lg leading-tight ${isScrolled ? 'text-corporate-deepGreen' : 'text-corporate-deepGreen md:text-white'}`}>Smith & Associates</span>
             <span className={`text-[10px] tracking-widest uppercase font-semibold ${isScrolled ? 'text-corporate-gold' : 'text-corporate-gold'}`}>Tax & Investment Advisors</span>
           </div>
         </Link>
@@ -94,14 +94,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="bg-corporate-gold text-corporate-deepGreen w-10 h-10 flex items-center justify-center font-serif text-xl font-bold rounded">JK</div>
+              <div className="bg-corporate-gold text-corporate-deepGreen w-10 h-10 flex items-center justify-center font-serif text-xl font-bold rounded">SA</div>
               <div className="flex flex-col">
-                <span className="font-bold text-lg leading-tight">J.K. Megnani & Co.</span>
-                <span className="text-[10px] tracking-widest uppercase text-corporate-gold">Est. 1959</span>
+                <span className="font-bold text-lg leading-tight">Smith & Associates</span>
+                <span className="text-[10px] tracking-widest uppercase text-corporate-gold">Est. 1980</span>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Leading tax consultants and investment advisors in Bhuj, Gujarat. Providing expert financial guidance with integrity since 1959.
+              Leading tax consultants and investment advisors in New York City. Providing expert financial guidance with integrity since 1980.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 border border-gray-600 rounded-full flex items-center justify-center hover:bg-corporate-gold hover:border-corporate-gold transition-all"><Facebook size={18} /></a>
@@ -125,7 +125,7 @@ const Footer = () => {
             <h4 className="text-xl font-bold mb-6 border-l-4 border-corporate-gold pl-4">Services</h4>
             <ul className="space-y-3">
               <li className="text-gray-300">Income Tax Filing</li>
-              <li className="text-gray-300">GST Registration & Returns</li>
+              <li className="text-gray-300">Sales Tax Registration & Returns</li>
               <li className="text-gray-300">Auditing & Assurance</li>
               <li className="text-gray-300">Accounting Services</li>
               <li className="text-gray-300">Investment Advisory</li>
@@ -137,15 +137,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="text-corporate-gold shrink-0 mt-1" size={20} />
-                <span className="text-gray-300">Opp. Hotel Prince, Station Road, Bhuj, Gujarat – 370001</span>
+                <span className="text-gray-300">123 Wall Street, Suite 500, New York, NY 10005</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-corporate-gold shrink-0" size={20} />
-                <span className="text-gray-300">+91 98252 XXXXX</span>
+                <span className="text-gray-300">(212) 555-0123</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-corporate-gold shrink-0" size={20} />
-                <span className="text-gray-300">info@jkmegnani.com</span>
+                <span className="text-gray-300">info@smithassociates.com</span>
               </li>
             </ul>
           </div>
@@ -153,7 +153,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © {currentYear} J.K. Megnani & Co. All rights reserved.
+            © {currentYear} Smith & Associates. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-400">
             <a href="#" className="hover:text-corporate-gold">Privacy Policy</a>

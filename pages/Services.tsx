@@ -62,7 +62,7 @@ export const ServicesPage = () => {
               Our service isn't just about filing forms; it's about building your legacy with financial wisdom and unwavering ethics.
             </blockquote>
             <div className="h-1 w-16 bg-corporate-gold mx-auto mb-4"></div>
-            <p className="font-bold text-gray-800 uppercase tracking-widest">J.K. Megnani & Co.</p>
+            <p className="font-bold text-gray-800 uppercase tracking-widest">Smith & Associates</p>
           </div>
         </div>
       </section>
